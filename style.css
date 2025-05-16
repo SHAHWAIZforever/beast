@@ -389,39 +389,62 @@ overflow-x: hidden;
   }
   @media(max-width:800px){
     .module-box{
-      width: 290px;
+      width: 98%;
+      place-self: center;
+      border-radius: 18px;
+      margin-bottom: 10px;
     }
+    .module-header{
+     text-align: left !important;
+    }
+    
   }
 
   .module-header {
-    height: 22%;
-    padding: 16px;
+    height: 22% !important;
+    padding: 16px !important;
     text-align: left !important;
-    background-color:black;
-
+    background-color: black !important;
   }
-
+  
   .module-header h4 {
-    text-align: left;
-    margin: 0;
-    color:white;
-    margin-bottom: 20px;
-  }
-
-  .module-header h2 {
-    color: white;
-    transform: translateX(-110px) translateY(10px) !important;
-    margin: 5px 0;
-    font-weight: bold;
-  }
-
-  .module-header p {
-
-    margin: 0;
+    margin: 0 0 20px 0 !important;
+    color: white !important;
     text-align: left !important;
-    transform: translateX(-0px);
-    color:white
   }
+  
+  .module-header h2 {
+    color: white !important;
+    margin: 5px 0 !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    transform: none !important; /* Remove unwanted shifting */
+  }
+  
+  .module-header p {
+    margin: 0 !important;
+    color: white !important;
+    text-align: left !important;
+    transform: none !important; /* Remove translateX if previously set */
+  }
+  .module-header {
+    width: 100%;
+    height: 24% !important;
+    padding: 16px !important;
+    background-color: black !important;
+    display: block !important;
+    text-align: left !important;
+  }
+  
+  .module-header * {
+    text-align: left !important;
+    margin: 0 !important;
+    color: white !important;
+    transform: none !important;
+    float: none !important;
+    display: block !important;
+  }
+  
 
   .module-body {
     height: 60%;
@@ -448,18 +471,17 @@ overflow-x: hidden;
   /*  */
   
   /* Tablet */
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .card {
       width: 48%;
     }
   }
 
-  /* Mobile */
   @media (max-width: 480px) {
     .card {
       width: 100%;
     }
-  }
+  } */
 
   /* >>>>>>>>>>>>>>> */
 
