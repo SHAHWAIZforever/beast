@@ -19,8 +19,11 @@ overflow-x: hidden;
 #section1{
   overflow: hidden;
 }
-
+#bigfish{
+  display: none;
+}
 @media(max-width:730px){
+
   #bgvideo{
   height:200vh;
   top: -500px;
@@ -748,7 +751,9 @@ footer{
 }
     @media(max-width:740px)
     {
-       
+       #bigfish{
+        display: block;
+       }
         .small{
 width: 100% !important;
 height: auto;
