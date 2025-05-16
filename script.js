@@ -168,7 +168,7 @@ window.location.href = '<?= $nextPage ?>' + window.location.search;
   $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
-    nav: true,              // ✅ Show navigation arrows
+    nav: false,              // ✅ Show navigation arrows
     dots: true,            // Disable pagination dots
     responsive: {
       0: {
