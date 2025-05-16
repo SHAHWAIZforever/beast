@@ -741,7 +741,7 @@ footer{
     }
 
     #smallpic{
-        display: none !important;
+        display: none;
     }
     .smallpic{
         display: none;
@@ -769,7 +769,7 @@ display: block;
     }
 
     .smallpic{
-        display: block !important;
+        display: block ;
     }
     .bigpic{
         display: none !important;
