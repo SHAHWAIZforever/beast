@@ -679,7 +679,7 @@ overflow-x: hidden;
     padding:1% 4%;
     place-self: center;
     margin: 20px auto;
-    background: white;
+    background: #f7f7f776;
     border-radius: 4px;
     font-weight: 500;
     
@@ -692,7 +692,7 @@ overflow-x: hidden;
   }
 
   .accordion-header {
-    background-color: #f7f7f7;
+    background-color: #e0e0e0b7 ;
     padding: 20px 50px 20px 15px;
     /* height: 70px; */
     cursor: pointer;
@@ -1138,7 +1138,7 @@ display: block;
   opacity: 1;
 }
 .owl-carousel{
-  height:600px !important;
+  height:620px !important;
   max-width: 900px;
   place-self: center;
 }
