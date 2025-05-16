@@ -565,6 +565,9 @@ overflow-x: hidden;
   @media (max-width: 768px) {
     .middle-box {
       border-left: none !important;
+      border-top: 2px solid rgba(0, 0, 0, 0.119);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.119);
+
       border-right: none !important;
     }
   }
@@ -1135,8 +1138,13 @@ display: block;
   opacity: 1;
 }
 .owl-carousel{
+  height:600px !important;
   max-width: 900px;
   place-self: center;
+}
+.owl-carousel *{
+border: 1px solid white;
+box-shadow: none;
 }
 
     .smallslide-card {
@@ -1146,7 +1154,7 @@ display: block;
       background: none;
       box-shadow: none;
       text-align: center;
-      border:1px solid white
+      border:2px solid white
     }
    
     .smallslide-img {
@@ -1163,6 +1171,7 @@ display: block;
       display: flex;
       justify-content: center;
       overflow: hidden;
+   
     }
     
   
