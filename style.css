@@ -1010,7 +1010,7 @@ display: block;
       #slider2{
         /* margin-top: 30px; */
         /* width: 400px; */
-        height: 500px !important;
+        height: 390px !important;
       }
       #slider2 img{
         width:290px !important;
@@ -1138,4 +1138,4 @@ display: block;
       overflow: hidden;
     }
     
-
+  
